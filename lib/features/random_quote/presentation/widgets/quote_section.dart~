@@ -1,0 +1,24 @@
+import 'package:echoes/features/random_quote/domain/entities/quote.dart';
+import 'package:echoes/features/random_quote/presentation/widgets/quote_app_bar.dart';
+import 'package:echoes/features/random_quote/presentation/widgets/quote_content.dart';
+import 'package:echoes/features/random_quote/presentation/widgets/quote_refresh_button.dart';
+import 'package:flutter/material.dart';
+
+class QuoteSection extends StatelessWidget {
+  const QuoteSection({super.key, required this.quote});
+  final Quote quote;
+  @override 
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: quoteAppBar(),
+      body: Column(
+        children: [
+          QuoteContent(
+            quote: quote,
+          ),
+          QuoteRefreshButton(),
+        ],
+      ),
+    );
+  }
+}

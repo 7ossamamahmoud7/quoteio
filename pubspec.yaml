@@ -1,0 +1,62 @@
+name: echoes
+description: "A new Clean Arch Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_screenutil: ^5.9.3
+  fluttertoast: ^8.2.8
+  font_awesome_flutter: ^10.8.0
+  shimmer: ^3.0.0
+  dartz: ^0.10.1
+  internet_connection_checker_plus: ^2.5.2
+  shared_preferences: ^2.3.2
+  get_it: ^8.0.2
+  flutter_native_splash: 2.4.2
+  flutter_launcher_icons: ^0.14.1
+
+
+dev_dependencies:
+  flutter_lints: 5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Tajawal-Black
+      fonts:
+        - asset: assets/fonts/Tajawal-Black.ttf
+    - family: Tajawal-Bold
+      fonts:
+        - asset: assets/fonts/Tajawal-Bold.ttf
+    - family: Tajawal-ExtraBold
+      fonts:
+        - asset: assets/fonts/Tajawal-ExtraBold.ttf
+    - family: Tajawal-ExtraLight
+      fonts:
+        - asset: assets/fonts/Tajawal-ExtraLight.ttf
+    - family: Tajawal-Light
+      fonts:
+        - asset: assets/fonts/Tajawal-Light.ttf
+    - family: Tajawal-Medium
+      fonts:
+        - asset: assets/fonts/Tajawal-Medium.ttf
+    - family: Tajawal-Regular
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+
+
