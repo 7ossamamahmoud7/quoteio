@@ -1,16 +1,17 @@
-# echoes
+# QuoteIO
 
-A new Clean Arch Flutter project.
+## Project Overview
+A sleek, responsive quotes app built with clean architecture that displays random quotes, featuring a refreshing button and shimmering loading effects.
 
-## Getting Started
+## Key Features
+- **Random Quotes**: Users can view random quotes with a simple refresh action.
+- **User-Friendly Design**: Intuitive interface with stunning UI and shimmering effects for loading content.
+- **Future Enhancements**: Upcoming support for +200 quote categories and the ability to favorite quotes for quick access.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Framework**: Flutter
+- **State Management**: flutter_bloc
+- **Networking**: dio
+- **Persistent Storage**: shared_preferences
+- **UI Enhancements**: shimmer, get_it, and more.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
